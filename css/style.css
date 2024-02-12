@@ -97,7 +97,7 @@ article h3 {
 }
 
 article p {
-	margin var(--general-margin);
+	margin: var(--general-margin);
 	line-height: 1.5;
 }
 

@@ -1,0 +1,91 @@
+:root {
+	height: 100%;
+	box-sizing: border-box;
+	--main-color-purple: rgb(25, 0, 51);
+	--main-color-teal: rgb(0, 153, 153);
+	--text-color: rgb(32, 32, 32);
+	--background-color: rgb(239, 239, 239);
+
+
+html {
+	margin: 0;
+}
+
+body {
+	position: relative;
+	min-height: 100vh;
+	padding-bottom: 1rem;
+	background-color: var(--background-color);
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 1.25rem;
+	line-height: 1.5rem;
+	color: var(--text-color);
+	font-weight: 400;
+}
+
+nav {
+	background-color: var(--main-color-teal);
+	padding: 5px;
+	margin-bottom: 5rem;
+	width: 100%;
+}
+
+h1 {
+	font-family: Verdana, Tahoma, sans-serif;
+	font-weight: 600;
+	text-transform: capitalize;
+	color: #fff;
+}
+
+.title {
+	text-align: center;
+		
+}
+
+.container {
+	align-items: center;
+	text-align: center;
+	padding-bottom: 4rem;
+}
+
+#dice-container > img {
+	margin-top: 4rem;
+	margin-bottom: 4rem;
+	cursor: pointer;
+	transition: opacity 0.5s ease;
+}
+	
+#result-box {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	width: 55%;
+	margin: auto;
+}
+
+footer {
+	background-color: var(--main-color-purple);
+	padding: 1rem;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%;
+	color: white;
+}
+
+footer p {
+	font-size: 1.2rem;
+	letter-spacing: 1rem;
+}
+	
+	
+	
+
+
+
+	
+	
+	
+	
+
